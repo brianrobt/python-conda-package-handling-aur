@@ -4,7 +4,7 @@
 pkgname=python-conda-package-handling
 pkgver=2.3.0
 _srcname="conda-package-handling-${pkgver}"
-pkgrel=1
+pkgrel=2
 pkgdesc="Create and extract conda package of various formats"
 arch=('any')
 url="https://github.com/conda/conda-package-handling"
@@ -12,6 +12,7 @@ license=('BSD-3-Clause')
 depends=(
   'python'
   'python-setuptools'
+  'python-conda-package-streaming'
 )
 makedepends=(
   'python-setuptools'
